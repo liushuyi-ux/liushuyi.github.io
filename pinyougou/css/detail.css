@@ -1,0 +1,161 @@
+/*详情页*/
+.crumb_wrap {
+	height: 25px;
+}
+.crumb_wrap a {
+	margin-right: 20px;
+}
+/*.product_intro {
+	width: 1200px;
+}*/
+.preview_wrap {
+	float: left;
+	width: 400px;
+	height: 600px;
+	/*background-color: #f00;*/
+}
+
+.preview_img {
+	width: 100%;
+	height: 400px;
+	margin-top: 10px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc; 
+}
+.preview_img img {
+	width: 100%;
+	height: 100%;
+}
+.preview_list {
+	position: relative;
+	height: 60px;
+	margin-top: 65px;
+	/*padding-left: 50px;*/
+}
+.preview_list ul {
+	width: 320px;
+	height: 60px;
+	margin: 0 auto;
+}
+.preview_list ul li {
+	float: left;
+	margin: 0 2px;
+	border: 2px solid transparent; 
+}
+.preview_list .preview_list_li {
+	transition: all 0.3s;
+	
+} 
+.preview_list ul li:hover  {
+	border: 2px solid #c81623;
+}
+.arrow_prev {
+	background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow_next {
+	background: url(../img/arrow-next.png) no-repeat;
+}
+.arrow_next,
+.arrow_prev {
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	width: 20px;
+	height: 30px;
+	/*background-color: rgba(0,0,0,.4);*/
+}
+.arrow_next {
+	right: 0;
+}
+/*产品详情*/
+.itemInfo_wrap {
+	float: right;
+	width: 720px;
+	height: 600px;
+	/*background-color: #00f;*/
+}
+.itemInfo_wrap .sku_name {
+	height: 30px;
+	font-weight: 700;
+	font-size: 16px;
+	color: #333;
+}
+.news {
+	height: 30px;
+	color: #e12228;
+}
+.summary {
+	position: relative;
+	width: 718px;
+}
+.summary_price {
+	height: 44px;
+	background-color: #fee9eb;
+	padding-left: 10px;
+}
+.summary_price dt,
+.summary_price dd{
+	float: left;
+	line-height: 44px;
+}
+.summary_price dd {
+	margin-left: 15px;
+}
+.summary_price dd i {
+	font-size: 24px;
+	color: #e12228;
+}
+.summary_price dd a{
+	color: #e12228;
+}
+.summary_pryue  {
+	position: absolute;
+	top: 10px;
+	right: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.choose_btns .choose_amount {
+	position: relative;
+	width: 49px;
+	height: 44px;
+	border: 1px solid #ccc;
+}
+.choose_amount input {
+	width: 33px;
+	height: 40px;
+}
+.choose_amount .add,
+.choose_amount .reduce {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 22px;
+}
+.add {
+	top: 0;
+}
+.reduce {
+	bottom:0;
+}
+
+
+
+
+

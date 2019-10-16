@@ -1,0 +1,276 @@
+/*主体页面 */
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 220px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+}
+.focus .arr-l {
+    font-family: 'icomoon';
+	position: absolute;
+	top: 50%;
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    background-color: rgba(0,0,0,.4);
+}
+.focus .arr-r {
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    right: 0;
+	width: 20px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #fff;
+	border-radius: 10px 0 0 10px;
+	background-color: rgba(0,0,0,.4);
+}
+.focus-er {
+	position: absolute;
+	left: 50px;
+	bottom: 15px;
+}
+.focus-er .focus-er-iu {
+	background-color: #fff;
+}
+.focus-er li {
+	float: left;
+	margin-left: 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	/*background-color: #fff;*/
+	border: 1px solid #fff;
+	background-color: rgba(255,255,255,.6);
+	cursor: pointer;
+}
+.newsflash {
+	margin-left: 10px;
+	width: 250px;
+	height: 445px;
+	/*border: 1px solid #ccc;*/
+	/*overflow: hidden;*/
+	/*background-color: #f00;*/
+}
+.newsty {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+.newshd {
+	height: 161px;
+	border-bottom:1px solid #ccc;
+}
+.newsbd {
+	width: 252px;
+	height: 210px;
+	/*border: 1px solid #ccc;*/
+	border-top: none;
+}
+.bourdu {
+	margin-top: 4px;
+}
+.newshd-hr {
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px 0;
+	border-bottom: 1px dotted #ccc;
+}
+.newshd-hr a {
+	font-family: 'icomoon';
+	float: right;
+}
+.newshd-br {
+	height: 130px;
+	padding: 0 10px 0;
+}
+.newshd-br li {
+	margin-top: 7px;
+}
+.newsbd li a {
+	float: left;
+	display: block;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.newsbd li a {
+	display: block;
+	overflow: hidden;
+	height: 100%;
+}	
+.newsbd li p {
+	text-align: center;
+}
+.newsbd .newsbd-al {
+	display: block;
+	width: 30px;
+	height: 32px;
+	background: url(../img/icons.png) no-repeat;
+	margin: 10px auto;
+}
+.newsbd .newsbd-pi {
+	background-position: -17px -16px;
+}
+.newsbd-yo {
+	position: relative;
+}
+.hot {
+	position: absolute;
+	right: 127px;
+	top: 0;
+	width: 12px;
+	height: 15px;
+	background: url(../img/jian.jpg) no-repeat;
+}
+.newsbd .newsbd-py {
+	background-position: -78px -16px;
+}
+/*主体样式*/
+
+/*推荐模块*/
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recom-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img {
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+}
+.recom-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+	/*background-color: skyblue;*/
+}
+.recom-bd li {
+	float: left;
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+    margin-top: 10px;
+}
+.recom-bd .last {
+	border-right: 0;
+}
+/*推荐模块*/
+/*楼层区*/
+.box-hd {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 25px;
+	/*background-color: #ccc;*/
+}
+.box-hd h3 {
+	font-size: 18px;
+	color: #c81623;
+	font-weight: 400;
+}
+.tab-list {
+	margin-right: 15px;
+}
+.tab-list li {
+	float: left;
+}
+.tab-list li a {
+	margin: 0 15px;
+}
+.tab-list .tab-list-st a {
+	color: #c81623;
+}
+.box-bd {
+	height: 360px;
+	border-top: 2px solid #c81623;
+	
+}
+.box-bd li {
+	float: left;
+	height: 360px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+	/*background-color: #f00;*/
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.tab-con li {
+	float: left;
+	height: 360px;
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li{
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
+.tab-con-item {
+	border-bottom: 1px solid #ccc;
+}
+.box-bd li {
+	overflow: hidden;
+}
+.box-bd img {
+	transition: all .2s;
+}
+.box-bd img:hover {
+	margin-left: 8px;
+}
+/*楼层区
+*电梯导航*/
+.fixedtool {
+	position: fixed;
+	top: 300px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff;
+}

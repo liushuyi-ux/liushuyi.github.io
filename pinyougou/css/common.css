@@ -1,0 +1,266 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*声明icomoon类型的字体*/
+@font-face {
+	/* 现在是在common.css中引入字体图片，注意相对路径的问题！ */
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+/*顶部快捷导航栏*/
+.shortcut {
+	height: 31px;
+	line-height: 31px;
+	background-color: #f1f1f1;
+}
+.shortcut li {
+	float: left;
+}
+.style-red {
+	color: #c81623;
+}
+.spacer {
+	width: 1px;
+	height: 12px;
+	line-height: 12px;
+	margin: 9px 12px 0;
+	color: #666;
+}
+.icomoon {
+	font-family:'icomoon';
+
+}
+/*顶部快捷导航栏 结束*/
+/*header 开始*/
+.header {
+	position: relative;
+	height: 105px;
+	/*background-color: #0f0;*/
+}
+.logo {
+	position: absolute;
+	left: 0;
+	top: 25px;
+	width: 177px;
+	height: 55px;
+	
+}
+.logo a {
+	display: block;
+	width: 177px;
+	height: 55px;
+	background: url(../img/logo.png) no-repeat ;
+	font-size: 0;
+}
+.search {
+	position: absolute;
+	top: 27px;
+	left: 348px;
+}
+.search .text {
+	float: left;
+	width: 455px;
+	height: 33px;
+	border: 2px solid #b1191a;
+}
+.search .btn {
+	float: left;
+	width: 80px;
+	height: 37px;
+	background-color: #b1191a;
+	color: #fff;
+}
+.hotwords {
+	position: absolute;
+	top: 65px;
+	left: 348px;
+}
+.hotwords a {
+	margin: 0 13px;
+}
+.shopcar {
+	width: 148px;
+	height: 35px;
+	line-height: 35px;
+	border: 1px solid #ccc;
+	position: absolute;
+	margin: 0 auto; 
+	top: 27px;
+	right: 65px;
+}
+.car {
+	font-family: 'icomoon';
+	margin-left: 20px;
+	color: #db5b5b;
+}
+.arrow {
+	font-family: 'icomoon';
+	margin-left: 10px;
+}
+.count {
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	height: 15px;
+	line-height: 15px;
+	background-color: #e60012;
+	padding: 0 3px;
+	border-radius: 7px 7px 7px 0;
+	color: #fff;
+}
+/*header 结束*/
+/*nav  开始*/
+.nav {
+	height: 45px;
+	border-bottom: 2px solid #b1191a;
+}
+
+.dropdown {
+	width: 209px;
+	height: 45px;	
+}
+.dropdown .dt {
+	height: 100%;
+	line-height: 45px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #b1191a;
+	color: #fff;
+}
+.dropdown .dd {
+	height: 465px;
+	margin-top: 2px;
+	background-color: #c81623;
+}
+.menu_item  {
+	padding: 0 10px;
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	color: #fff;
+}
+ .menu_item a {
+	font-size: 14px;
+	color: #fff;
+}
+.menu_item:hover {
+	background-color: #fff;
+	color: #c81623;
+}
+.menu_item:hover a {
+	color: #c81623;
+}
+.dd .menu_item i {
+	font-family: 'icomoon';
+	float: right;
+	color: #fff;
+}
+.navitems {
+	height: 45px;
+	line-height: 45px;
+}
+.navitems li {
+	float: left;
+	margin-left: 45px;
+	font-size: 16px;
+}
+/*nav  结束*/
+/*footer 开始*/
+.footer {
+	height: 386px;
+	padding-top: 30px;
+	background-color: #f5f5f5;
+}
+.mod_service {
+	height: 79px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_service li {
+	float: left;
+	width: 240px;
+	height: 79px;
+}
+.mod_service_icon {
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-left: 35px;
+	background: url(../img/icons.png) no-repeat ;
+}
+.mod_service_zheng {
+	background-position: -253px -3px;
+}
+.mod_service_tit {
+	float: left;
+	margin-left: 5px;
+}
+.mod_service_tit h5 {
+	font-size: 14px;
+	color: #333;
+}
+.mod_service_tit p {
+	font-size: 12px;
+	color: #666;
+	margin-top: 7px;
+}
+.mod_service_br {
+	background-position: -255px -54px;
+}
+.mod_service_or {
+	background-position: -257px -106px;
+}
+.mod_service_pr {
+	background-position: -257px -157px;
+}
+.mod_service_ir {
+	background-position: -257px -209px;
+}
+.mod_help {
+	height: 184px;
+	border-bottom: 1px solid #ccc;
+}
+.mod_help_hr {
+	float: left;	
+	width: 150px;
+	padding-left: 50px;
+	margin-top: 25px;
+}
+.mod_help_hr dt {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.mod_help_hr dd {
+	height: 20px;
+}
+.mod_copyright {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.mod_help_tr a {
+	margin:0 10px 0 10px;
+}
+.mod_help_tr p{
+	margin-top: 15px;
+}
+
+
+
+
+/*footer 结束*/
